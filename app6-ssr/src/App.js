@@ -4,10 +4,17 @@ import Copyright from './Copyright';
 function App() {
 
       return (
-
-            <Copyright ano="2021" />
-
-    );
+        <div>
+            <h1 className='col text-white  bg-danger mt-5 text-center'>Recode Pro {props.ano}! </h1>
+            <br />
+            <br />
+            <br />
+            <h2 className='col text-white  bg-success p-5 text-center'>Muito obrigada</h2>
+            <br />
+            <br />
+            <h3 className='text-dark col bg-warning p-5 text-center'>por tudo!!!</h3>
+        </div>
+    )
 
 }
 
